@@ -2,7 +2,7 @@
 
 ### Luiz Candeias
 
-Estou no curos de desenvolvimento web porque meu irmão me inspirou a aprender uma nova profissão.
+Estou no curso de desenvolvimento web porque meu irmão me inspirou a aprender uma nova profissão.
 
 ### Meu primeiro codigo
 
