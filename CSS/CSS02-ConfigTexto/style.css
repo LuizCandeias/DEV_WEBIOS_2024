@@ -1,0 +1,20 @@
+body{
+                     /*red, green, blue*/
+/*background-color: rgb(255, 197, 8);*/
+     background-color: #148aab; 
+}
+h1{
+    /* font-size: 50px; */
+}
+p{
+    font-family: "Josefin Sans", sans-serif;
+    /* font-size: 20px; */
+    font-size: 2rem
+    /* 16px = 1rem. 2rem =32px. multiplicação */
+}
+img{
+    height: 20cm;
+    width: 28cm;
+    border-radius: 20%;
+}
+
