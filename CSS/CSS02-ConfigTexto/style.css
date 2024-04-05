@@ -4,17 +4,29 @@ body{
      background-color: #148aab; 
 }
 h1{
-    /* font-size: 50px; */
+    font-size: 50px;
+    text-shadow: 3px 3px 10px #ffffff;
+    /* primeio(2px) valor horizontal, segunda(2px) vertical e terceiro(20px) o raio dele */
 }
 p{
     font-family: "Josefin Sans", sans-serif;
-    /* font-size: 20px; */
-    font-size: 2rem
+    font-size: 24px;
+    line-height: 35px;
+    /* font-style: oblique; */
+    /* font-size: 2rem */
     /* 16px = 1rem. 2rem =32px. multiplicação */
 }
 img{
-    height: 20cm;
-    width: 28cm;
-    border-radius: 20%;
+    /* height: auto; 18px altura */
+    /* width: 100%; 25pxlargura */
+    /* border-radius: 20%; */
+    /* box-shadow: 10px 10px 20px #97bfc9; */
+    
+    height: auto;
+    width: 80%;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    aspect-ratio: auto 600 / 750;
 }
 
