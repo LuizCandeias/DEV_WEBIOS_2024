@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://picsum.photos/id/111/600/400");
+    background-repeat:  ;
+    /* background-size:100%; */
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+#bordaverde{
+    border-color: green;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 5px;
+    background-color: rgb(200, 236, 200);
+    /* border: 5px double green; */
+    /* posso colocar cada tag ou chamar a tag border e configurar tudo de uma vez */
+}
+#BordaAzul{
+    border: 5px double blue;
+    border-radius: 5px;
+    background-color: rgb(217, 217, 243);
+    /* border radius configura todos as lados, sendo eles:top right bottom left
+    e se adicionar px em diante vai mudando seguindo o top right...etc. */
+}
+#BordaRoxa{
+    border: 5px double purple;
+    border-radius: 5;
+    background-color: rgb(233, 217, 233);
+}
+img{
+    border-radius: 10px;
+}
+#imagem{
+    border: 1px solid ;
+    border-radius: 10px;
+    
+}
