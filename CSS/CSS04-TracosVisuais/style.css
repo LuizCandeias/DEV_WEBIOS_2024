@@ -25,7 +25,7 @@ body{
     border: 5px double blue;
     border-radius: 5px;
     background-color: rgb(217, 217, 243);
-    /* border radius configura todos as lados, sendo eles:top right bottom left
+    /* border radius configura todos as lados, sendo eles:top(base superior) right(direta direita) bottom(base inferior) left(esquerda superior)
     e se adicionar px em diante vai mudando seguindo o top right...etc. */
 }
 #BordaRoxa{
