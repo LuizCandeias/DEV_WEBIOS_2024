@@ -1,53 +1,36 @@
-body{
-    background-color: bisque;
+/* div:first-child{
+    background-color: rgb(142, 141, 143);
+} */
+#paragrafoHover:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 10px;
 }
-
-#div2{
-    border: solid 5px black;
-    margin: 15px;
-    padding: 15px;
+#titulo2:hover{
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
 #button{
     border: 1px solid rgb(66, 65, 65);
     background-color: rgb(206, 204, 204);
     border-radius: 5px;
-    margin: 15px;
-    padding: 15px;
 }
 #button:hover{
-    color: white;
+    color: #ffffff;
     background-color: rgb(0, 0, 0);
     font-size: 15px;
 }
-#paragrafoHover{
-    margin: 15px;
-    padding: 15px;
+#image:hover{
+    box-shadow: 10px 10px 10px;
+    color: black;
+    width: 9000px;
+    height: 9000px;
 }
-#paragrafoHover:hover{
-    background-color: orange;
-    color: aqua;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin: 15px;
-    padding: 15px;
+#pseudo::before{
+    content: 'ultilizamdo before - ';
 }
-
-#titulo:hover{
-    
-    font-family: "Sedan", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-#imagem:hover{
-    box-shadow: 10px 10px 10px blue;
-    width: 700px;
-    height: 700px;
-    
-}
-
-#pseudo::before{    
-    content: 'Utilizando o before ';
-
+#pseudo::after{
+    content: ' - ultilizamdo after ';
 }
