@@ -1,0 +1,18 @@
+#container{
+    
+    display:grid;
+    grid-template-columns:repeat(10, 70px)
+    
+    /* 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
+    /* grid-template-columns = define o tamanho e o comportamento das colunas em um grid CSS.*/
+    /* grid-template-rows: */
+    
+    /* 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px; */
+    /* A propriedade grid-template-rows define o tamanho e o comportamento das linhas em um grid CSS. Com essa propriedade, você pode especificar o tamanho das linhas de forma semelhante à grid-template-columns. */
+    
+}
+.itens{
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+    
+}
