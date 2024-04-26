@@ -1,0 +1,56 @@
+/* #container{
+    
+    display:grid;
+    grid-template-columns:repeat(10, 1fr) */
+    
+    /* grid-template-columns = define o tamanho e o comportamento das colunas em um grid CSS.*/
+    /* grid-template-rows: */
+
+    /* 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
+    
+    /* grid-template-rows: repeat(10, 1fr) */
+
+    /* A propriedade grid-template-rows define o tamanho e o comportamento das linhas em um grid CSS. Com essa propriedade, você pode especificar o tamanho das linhas de forma semelhante à grid-template-columns.
+     */
+    /* 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px; */
+    
+    
+/* }
+.itens{
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+    
+} */
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+    /* grid-template-rows: repeat(3, 50px); */
+    row-gap: 10px;
+    column-gap: 15px;
+    /* justify-items: center;
+    text-align: center;
+    align-items: center; */
+}
+
+#item-1{
+    grid-area: header;
+}
+#item-2{
+    grid-area: main;
+}
+#item-3{
+    grid-area: sidebar;
+}
+#item-4{
+    grid-area: footer;
+}
+
+
+
+
+.itens{
+    border: solid 1px black;
+    /* width: 50%;
+    height: 50%; */
+}
