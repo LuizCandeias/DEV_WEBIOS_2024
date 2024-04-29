@@ -4,6 +4,7 @@
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "item1 item1 item2 item2" "item3 item3 item3 item3" "item4 item4 item4 item4" ". item5 item5 ." "item6 item6 item6 item6" "item7 item7 item8 item9";
 }
+
 #item-1{
     grid-area: item1;
 
@@ -32,6 +33,7 @@
 #item-9{
     grid-area: item9;
 }
+
 
 .itens{
     border: solid 1px black;
