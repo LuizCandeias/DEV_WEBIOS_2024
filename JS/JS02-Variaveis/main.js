@@ -44,3 +44,62 @@ console.log( num1 == num2)
 
 var teste;
 console.log(teste)
+
+console.clear()
+
+// Operadores
+
+var operador1 = 8
+var operador2 = null
+console.log(operador1 * operador2) // 8 * null = 0
+
+var operador3 = "5"
+var operador4 = 1
+console.log(operador3 - operador4) //"5" - 1 = 4
+
+var operador5 = "5"
+var operador6 = 1
+console.log(operador5 + operador6) // "5" + "1" = 51
+
+var operador7 = "five"
+var operador8 = 2
+console.log(operador7 * operador8) // "five = 5" * 2
+
+console.clear()
+
+var valor1 = 2
+var valor2 = 2
+var resultado = valor1 % valor2
+console.log(resultado)
+
+console.clear()
+
+var  compara = 2 > 3 != 2 // true 
+var teste = !compara // false
+console.log("variavel teste " + teste)
+console.log("variavel compara " + compara)
+
+
+// == só está comparando o valor
+// === compara o valor e o tipo 
+// se o valor é menor ou igual =>
+// se o valor é maior ou igual <=
+// se o valor é diferente ou igual !=
+
+console.clear()
+
+let valor3 = 4
+let valor4 = 6
+let resultado1 = valor3 < valor4 || valor3 == valor4
+
+// ||
+//true OU false == true
+//true OU true == true
+//false OU false == false
+
+// &&
+// true  E false == false
+// true  E true == true
+// false E false == false
+console.log(resultado1)
+
