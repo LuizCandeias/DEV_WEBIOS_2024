@@ -43,3 +43,17 @@ let tarefa = [
 console.log(tarefa)
 console.log(tarefa[1]) // retorna um objeto
 console.log(tarefa[1].nomeTarefa)// retorna uma única propriedade de um objeto
+
+console.clear()
+
+let recebeJAINSON = JSON.stringify(pessoa)
+
+console.log(pessoa)
+console.log(recebeJAINSON)
+
+console.clear()
+
+var JSONITO = '{"CorDosOlhos":"Preto","Altura":1.86,"corCabelo":"Castanho Escuro","nome":"Luiz","sobrenome":"Candeias","hobbie":["Basquete","Musicas","League Of Legends"],"endereco":{"rua":"alto sucuriu","numero":81,"cidade":"são paulo","estado":"SP"}}'
+
+console.log(JSONITO)
+console.log(JSON.parse(JSONITO))
