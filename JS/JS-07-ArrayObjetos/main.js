@@ -32,7 +32,7 @@ let tarefa = [
     {
         id:2,
         isPronta:true,
-        nomeTarefa: "sair do chão"
+        nomeTarefa: "sair do chã"
     },
     {
         id:3,
