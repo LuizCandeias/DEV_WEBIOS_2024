@@ -35,18 +35,16 @@ let byTagName = document.getElementsByTagName("p")
 
 console.log(byTagName)
 
-for(i = 0; i < byTagName.length; i++){
-    byTagName[i].style.color = 'green'
-    byTagName[i].style.fontSize = '20px'
-    byTagName[i].style.boxShadow = '10px'
+for(c = 0; c < byTagName.length; c++){
+    byTagName[c].style.color = 'black'
+    byTagName[c].style.fontSize = '20px'
+    byTagName[c].style.boxShadow = '3px 1px 5px #71dbd2'
+    if(c % 2 == 0) {
+        byTagName[c].style.backgroundColor = "#00b9bd"
+    }else {
+        byTagName[c].style.backgroundColor = '#fff'
+    }
 }
-
-
-
-
-
-
-
 
 // O método getElementsByName retorna a coleção de todos os elementos do documento com o nome específico, ou seja, esse método verifica o atributo HTML name. Isso significa que esse método pode retornar mais de um elemento.
 
@@ -63,20 +61,19 @@ function funcao (cont, indice) {
     return byName[indice].style.color = 'pink'
 }
 
+// O método remove() permite remover um elemento do DOM
 
+//Remover um elemento no DOM -->
 
+let removendo = document.getElementById('remove1')
+removendo.remove()
 
+console.log(byTagName)
 
+//A propriedade listStyle configura o estilo da lista e no exemplo para não mostrar o marcador da lista (o bullet point).
 
+//Vamos alterar o estilo da lista não ordenada. Siga os passos para fazer isso:
 
+let recebeLista= document.getElementById('pae')
 
-
-
-
-
-
-
-
-
-//
-//
+recebeLista.style.listStyle = "none"
