@@ -37,6 +37,8 @@ console.log(byTagName)
 
 for(i = 0; i < byTagName.length; i++){
     byTagName[i].style.color = 'green'
+    byTagName[i].style.fontSize = '20px'
+    byTagName[i].style.boxShadow = '10px'
 }
 
 
