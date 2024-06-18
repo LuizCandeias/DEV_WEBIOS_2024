@@ -40,7 +40,7 @@ cep, addEventListener('focusout', async () => {
             rua.value = response.logradouro
             complemento.value = response.complemento
             bairro.value = response.bairro
-            cidade.value = response.localidade"
+            cidade.value = response.localidade
             uf.value = response.uf
 
     }catch (error){
