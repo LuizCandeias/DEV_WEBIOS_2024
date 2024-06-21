@@ -18,26 +18,50 @@ body{
     margin: auto;
     display: grid; /* Use "grid" em vez de "inline-grid" */
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap:50px;
     position: relative;
     padding-top:30px;
-    
+    text-align: center;
+    padding: 70px;
+}
+
+.card-container2{
+    margin: auto;
+    display: grid; /* Use "grid" em vez de "inline-grid" */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:50px;
+    position: relative;
+    padding-top:30px;
+    text-align: center;
+    padding: 70px;
+}
+.card-container3{
+    margin: auto;
+    display: grid; /* Use "grid" em vez de "inline-grid" */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:50px;
+    position: relative;
+    padding-top:30px;
+    text-align: center;
+    padding: 70px;
 }
 
 #first-container{
     background-color: #193B3A;
     width: 55%;
-    border-radius: 120px;
+    border-radius: 50px;
+}       
+p{
+    color: #777989;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
 #h1 {
-    text-align: center;
-    margin: 0;
-    color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
-    padding-top: 40px;
-}
-#h1seg {
     text-align: center;
     margin: 0;
     color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
@@ -53,9 +77,9 @@ body{
     height: auto;
     border-radius: 17px;
 }
-.card-container{
+/* .card-container{
     padding: 70px;
-}
+} */
 .card-container h2{
     color: #ffffff;
     font-size: 18px;
@@ -67,15 +91,20 @@ body{
 }
 .bnt{
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .btn{
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #26BA2C;
-    border-radius: 25px;
+    border-radius: 7px;
+    border: none;
     color: white;
+    font-size: 14px;
+   
 }
 @media screen and (max-width: 800px){
     .card_container{
