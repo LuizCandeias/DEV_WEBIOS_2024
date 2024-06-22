@@ -41,7 +41,18 @@ body{
     margin: auto;
     display: grid; /* Use "grid" em vez de "inline-grid" */
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap:50px;
+    position: relative;
+    padding-top:30px;
+    text-align: center;
+    padding: 70px;
+}
+.card-container4{
+    margin: auto;
+    display: grid; /* Use "grid" em vez de "inline-grid" */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-gap:50px;
     position: relative;
     padding-top:30px;
@@ -94,6 +105,9 @@ p{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    
 }
 .btn{
     padding: 5px;
@@ -104,7 +118,9 @@ p{
     border: none;
     color: white;
     font-size: 14px;
-   
+}
+.btn:hover{
+    
 }
 @media screen and (max-width: 800px){
     .card_container{
