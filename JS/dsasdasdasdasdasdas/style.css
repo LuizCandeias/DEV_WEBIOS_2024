@@ -126,7 +126,7 @@ p{
     font-size: 14px;
 }
 .btn:hover{
-    
+   text-align: center; 
 }
 @media screen and (max-width: 800px){
     .card_container{
