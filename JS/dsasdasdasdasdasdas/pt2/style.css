@@ -8,7 +8,7 @@
 
 body{
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #F5EAD3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body{
 
 
 #first-container{
-    background-color: #ffffff;
+    background-color: #F5EAD3;
     width: 55%;
     border-radius: 50px;
 }       
@@ -51,11 +51,29 @@ p{
     padding-left: 8px;
     padding-right: 30px;
 }
+.invisivel {
+    color: #193B3A;
+}
+.add{
+    background-color: #163130;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 #desconto{
     font-size: 15px;
     padding-right: 10px;
 }
-#h1 {
+#h1primeiro {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding:5px;
+    background-color: #193B3A;
+    border-radius: 40px;
+    margin-left: 25%;
+    margin-right: 27%;
+}
+#h1segundo {
     text-align: center;
     color: rgb(255, 255, 255);
     padding:5px;
@@ -67,14 +85,14 @@ p{
 #text-h1{
     text-align: center;
     margin: 0;
-    color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 5px;
 }
 #valor{
     text-align: center;
     margin: 0;
-    color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
+    color: rgb(255, 255, 255);
     font-size: 40px;
    
 }
@@ -82,7 +100,7 @@ p{
     background-color: #193B3A;
     border-radius: 20px;
     text-align: center; 
-    height: 400px;
+    height: 440px;
     width: 300px;
     justify-content: center;
 }
@@ -103,31 +121,51 @@ img{
 }
 li{
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     text-align: left;
     padding-left: 20px;
 }
 #nutri{
-    padding-left: 20px;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    padding-left: 14px;
+    padding-right: 30px;
+    padding-top: 20px;
 }
 #nutri2{
     padding-left: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    padding-right: 30px;
+    padding-top: 28px;
 }
 #nutri3{
-    padding-left: 20px;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    padding-left: 14px;
+    padding-right: 30px;
+    padding-top: 20px;
 }
 #nutri4{
-    padding-left: 20px;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    padding-left: 14px;
+    padding-right: 30px;
+    padding-top: 20px;
 }
 .bnt{
     padding-bottom: 10px;
-    padding-top: 23px;
+    padding-top: 20px;
     display: flex;
-    padding-left: 54px;
-    padding-right: 40px;
-    align-items: center;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .btn{
+    
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
@@ -135,42 +173,153 @@ li{
     border-radius: 7px;
     border: none;
     color: white;
-    font-size: 14px;
-}
-#bnt{
-    padding-bottom: 10px;
-    padding-top: 27px;
-    display: flex;
-    padding-left: 54px;
-    padding-right: 49px;
-    align-items: center;
-}
-#bnt2{
-    padding-bottom: 10px;
-    padding-top: 32px;
-    display: flex;
-    padding-left: 54px;
-    padding-right: 49px;
-    align-items: center;
-}
-#bnt3{
-    padding-bottom: 10px;
-    padding-top: 8px;
-    display: flex;
-    padding-left: 54px;
-    padding-right: 49px;
-    align-items: center;
+    font-size: 17px;
 }
 .btn:hover{
-    
+    border: 1px solid #26BA2C;
+    background: #fff;
+    color: #26BA2C;
+ 
 }
-@media screen and (max-width: 800px){
-    .card_container{
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 1500px) {
+    .card-container,
+    .card-container2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    #first-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #h1primeiro,
+    #h1segundo {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #valor {
+        font-size: 30px;
     }
 }
-@media screen and (max-width: 600px){
-    .card_container{
+
+@media screen and (max-width: 520px) {
+    .card-container,
+    .card-container2 {
         grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #first-container {
+        width: 100%;
+        padding: 10px;
+        padding-right: 30px;
+    }
+
+    #h1primeiro,
+    #h1segundo {
+        margin-left: 41px;
+        margin-right: 14px;
+        font-size: 14px;
+        padding-top: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    p {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    #nutri, #nutri2, #nutri3, #nutri4 {
+        font-size: 28px;
+        padding-left: 25px;
+    }
+
+    .btn {
+        font-size: 17px;
+    }
+
+    #valor {
+        font-size: 50px;
+    }
+
+    li {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .card-container,
+    .card-container2 {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #first-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #h1primeiro,
+    #h1segundo {
+        margin: 5px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+
+    p {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+
+    #nutri, #nutri2, #nutri3, #nutri4 {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    #valor {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 12px;
+        padding-bottom: 4px;
     }
 }

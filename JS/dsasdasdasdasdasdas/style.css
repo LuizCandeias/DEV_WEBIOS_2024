@@ -65,7 +65,7 @@ body{
 
 .card-container2{
     margin: auto;
-    display: grid; /* Use "grid" em vez de "inline-grid" */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap:50px;
@@ -76,7 +76,7 @@ body{
 }
 .card-container3{
     margin: auto;
-    display: grid; /* Use "grid" em vez de "inline-grid" */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap:50px;
@@ -87,7 +87,7 @@ body{
 }
 .card-container4{
     margin: auto;
-    display: grid; /* Use "grid" em vez de "inline-grid" */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap:50px;
@@ -119,13 +119,13 @@ p{
 #h1primeiro{
     text-align: center;
     margin: 0;
-    color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
+    color: rgb(255, 255, 255);
     padding-top: 40px;
 }
 .h1 {
     text-align: center;
     margin: 0;
-    color: rgb(255, 255, 255); /* Adiciona uma cor para o texto do h1 */
+    color: rgb(255, 255, 255); 
     padding-top: 40px;
 }
 .card{
@@ -176,21 +176,21 @@ img:hover {
     color: #26BA2C;
  
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 922px) {
     .card-container,
     .card-container2,
     .card-container3,
     .card-container4 {
         grid-template-columns: repeat(2, 1fr);
-        padding: 5px; /* Reduzir padding para telas menores */
+        padding: 5px; 
     }
 
     #first-container {
-        width: 80%; /* Ajustar largura para telas menores */
+        width: 80%; 
     }
 
     #h1 {
-        font-size: 1.5em; /* Ajustar tamanho de fonte para telas menores */
+        font-size: 1.5em;
     }
 }
 
@@ -204,7 +204,7 @@ img:hover {
         width: 90%;
     }
     #first-container {
-        width: 90%; /* Ajustar largura para telas menores */
+        width: 90%; 
         padding-bottom: 12px;
         
     }
