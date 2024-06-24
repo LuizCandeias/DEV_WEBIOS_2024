@@ -176,7 +176,7 @@ img:hover {
     color: #26BA2C;
  
 }
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 1500px) {
     .card-container,
     .card-container2,
     .card-container3,
@@ -194,7 +194,39 @@ img:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 520px) {
+    .card-container,
+    .card-container2,
+    .card-container3,
+    .card-container4 {
+        grid-template-columns: 1fr;
+        padding: 10px; 
+        width: 90%;
+    }
+    #first-container {
+        width: 90%; 
+        padding-bottom: 12px;
+        
+    }
+    #h1primeiro{
+        padding-top: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+    }
+    .h1 {
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+    .card{
+        padding: 8px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+
+}
+@media screen and (max-width: 280px) {
     .card-container,
     .card-container2,
     .card-container3,
